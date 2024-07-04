@@ -1,0 +1,10 @@
+TRAINING:
+  RANDOM_STATE: 42
+  EPOCH: 5
+  BATCH_SIZE: 128
+  VALIDATION_SPLIT: 0.2
+  MAX_WORDS : 50000
+  MAX_LEN : 300
+  LOSS : binary_crossentropy
+  METRICS : ['accuracy']
+  ACTIVATION : sigmoid         
